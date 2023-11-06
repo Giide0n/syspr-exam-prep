@@ -11,4 +11,5 @@ add_executable(new_target ignoreN/ignoreN.c
         patch/patch.c
         count/count.c
         exec/exec.c
-        exec/hello.c)
+        exec/hello.c
+        pos/pos.c)
