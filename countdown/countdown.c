@@ -22,7 +22,9 @@ int main(int argc, char *argv[]) {
     if(c_pid == 0) {
         while(c > 0) {
             kill(p_pid, SIGUSR1);
+            sleep(1);
         }
+        exit(0);
     } else {
         pause();
     }
