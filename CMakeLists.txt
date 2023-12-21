@@ -15,4 +15,5 @@ add_executable(new_target ignoreN/ignoreN.c
         pos/pos.c
         producerConsumer/producerConsumer.c
         addN/addN.c
-        socketpair/socketpair.c)
+        socketpair/socketpair.c
+        checkin/checkin.c)
