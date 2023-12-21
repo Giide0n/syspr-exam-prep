@@ -2,7 +2,7 @@
 
 Eine Sammlung aus Aufgaben aus alten Prüfungsaufgaben für das Modul syspr an der FHNW.
 
-Um die Einzelnen Programme auszuführen können die C-Files mit gcc compiliert werden und anschliessend anhand der 
+Um die Einzelnen Programme auszuführen können die C-Files mit gcc compiliert werden und anschliessend anhand der
 Beispiele hier im README ausgeführt werden.
 
 ## addN
@@ -28,6 +28,16 @@ $ ./checkin scan lisa biz
 added lisa (biz) to queue 
 $ ./checkin next
 next is lisa
+```
+
+## secChild
+
+Schreiben Sie ein Programm, das eine Sekunde lang (CPU Zeit) Child-Prozesse erzeugt und dann ausgibt, wie viele
+Child-Prozesse in dieser Zeit erzeugt werden konnten.
+
+```
+$ ./secChild
+5388
 ```
 
 ## socketpair
