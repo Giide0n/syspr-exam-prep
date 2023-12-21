@@ -13,4 +13,5 @@ add_executable(new_target ignoreN/ignoreN.c
         exec/exec.c
         exec/hello.c
         pos/pos.c
-        producerConsumer/producerConsumer.c)
+        producerConsumer/producerConsumer.c
+        addN/addN.c)
