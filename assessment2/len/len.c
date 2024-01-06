@@ -1,6 +1,6 @@
 //
 // Created by Benaja on 06/01/2024.
-// Test: FS2022 4ibb2
+// Test: FS2022 4ibb2 Aufgabe 2
 //
 
 #include <stdio.h>
