@@ -60,7 +60,7 @@ $ ./len ./hello
 51
 ```
 
-# Sockets
+# udp2tcp / Sockets
 Gegeben den folgenden Code, implementieren Sie in main() ein Programm udp2tcp das ein
 UDP Paket (max. 4096 Bytes) empfängt, und dessen Inhalt per TCP an die Absender-Adresse
 zurücksendet, aber auf den Port 8080, statt dem ursprünglichen Absender-Port. Falls dort ein TCP Server antwortet, soll die ganze Antwort auf die Konsole ausgegeben werden
