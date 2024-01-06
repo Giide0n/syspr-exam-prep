@@ -14,7 +14,9 @@ add_executable(new_target ignoreN/ignoreN.c
         exec/hello.c
         pos/pos.c
         producerConsumer/producerConsumer.c
-        addN/addN.c
-        socketpair/socketpair.c
-        checkin/checkin.c
-        secChild/secChild.c)
+        assessment2/addN/addN.c
+        assessment2/socketpair/socketpair.c
+        assessment2/checkin/checkin.c
+        assessment2/secChild/secChild.c
+        assessment2/len/len.c
+        assessment2/udp2tcp/udp2tcp.c)
