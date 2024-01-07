@@ -86,3 +86,10 @@ parallel berechnet, in je einem Thread, und dann die korrekte Summe ausgibt.
 $ ./sum it was all a dream
 14
 ```
+
+# sd / IPC mit pipes
+Schreiben Sie ein Programm sd, welches die maximale Tiefe des Stacks bestimmt, indem es eine rekursive Funktion aufruft, in einem Child Prozess, welche in jeder Iteration die aktuelle Stack-Tiefe per Pipe an den Parent schickt, der dann den letzten Wert ausgibt.
+```
+$ ./sd
+262008 forks until Stackoverflow
+```
