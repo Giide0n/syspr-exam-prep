@@ -69,3 +69,12 @@ zurücksendet, aber auf den Port 8080, statt dem ursprünglichen Absender-Port. 
 Schreiben Sie ein Programm mq__carousel, welches alle Messages aus einer per Pfadname
 gegebenen POSIX Message Queue herausliest, auf die Konsole ausgibt, und dann wieder in
 die Queue schreibt. Vereinfachung: Alle Messages haben dieselbe Priorität
+
+# dogbday
+Angenommen, dass 7 "Hundejahre" einem "Menschenjahr" entsprechen, schreiben Sie ein
+Programm dogbday, das ein Geburtsdatum (nach 01.01.1970) nimmt, und den diesem Alter entsprechenden "Hundegeburtstag" ausgibt. Das Datum soll jeweils im Format "%d.%m.%Y"
+in Lokalzeit geparsed und ausgegeben werden, wie im Beispiel.
+```
+$ ./dogbday 07.01.2003
+07.01.2021
+```
