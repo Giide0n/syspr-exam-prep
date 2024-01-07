@@ -50,3 +50,22 @@ ausgegeben wird.
 $ ./socketpair a
 a
 ```
+
+# IPC mit pipes / len
+Schreiben Sie ein Programm len, das die Länge des Outputs eines beliebigen Programms
+ausgibt, dessen Pfadname per Command Line übergeben wird. Nutzen Sie dazu eine Pipe und
+den dup2() Call, der stdout auffd "umbiegt", mit dup2(fd, STDOUT__FILENO)
+```
+$ ./len ./hello
+51
+```
+
+# udp2tcp / Sockets
+Gegeben den folgenden Code, implementieren Sie in main() ein Programm udp2tcp das ein
+UDP Paket (max. 4096 Bytes) empfängt, und dessen Inhalt per TCP an die Absender-Adresse
+zurücksendet, aber auf den Port 8080, statt dem ursprünglichen Absender-Port. Falls dort ein TCP Server antwortet, soll die ganze Antwort auf die Konsole ausgegeben werden
+
+# mq_carousel / POSIX IPC
+Schreiben Sie ein Programm mq__carousel, welches alle Messages aus einer per Pfadname
+gegebenen POSIX Message Queue herausliest, auf die Konsole ausgibt, und dann wieder in
+die Queue schreibt. Vereinfachung: Alle Messages haben dieselbe Priorität
