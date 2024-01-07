@@ -78,3 +78,11 @@ in Lokalzeit geparsed und ausgegeben werden, wie im Beispiel.
 $ ./dogbday 07.01.2003
 07.01.2021
 ```
+
+# sum
+Schreiben Sie ein Programm sum, das die String-Längen seiner Command Line Argumente
+parallel berechnet, in je einem Thread, und dann die korrekte Summe ausgibt.
+```
+$ ./sum it was all a dream
+14
+```

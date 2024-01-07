@@ -21,4 +21,5 @@ add_executable(new_target ignoreN/ignoreN.c
         assessment2/len/len.c
         assessment2/udp2tcp/udp2tcp.c
         assessment2/mq_carousel/mq_carousel.c
-        assessment2/dogbdy/dogbday.c)
+        assessment2/dogbdy/dogbday.c
+        assessment2/sum/sum.c)
