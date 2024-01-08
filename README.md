@@ -88,8 +88,25 @@ $ ./sum it was all a dream
 ```
 
 # sd / IPC mit pipes
-Schreiben Sie ein Programm sd, welches die maximale Tiefe des Stacks bestimmt, indem es eine rekursive Funktion aufruft, in einem Child Prozess, welche in jeder Iteration die aktuelle Stack-Tiefe per Pipe an den Parent schickt, der dann den letzten Wert ausgibt.
+Schreiben Sie ein Programm sd, welches die maximale Tiefe des Stacks bestimmt, indem es eine rekursive Funktion aufruft,
+in einem Child Prozess, welche in jeder Iteration die aktuelle Stack-Tiefe per Pipe an den Parent schickt, der dann den letzten Wert ausgibt.
 ```
 $ ./sd
 262008 forks until Stackoverflow
+```
+
+# eat / POSIX IPC
+Gegeben den folgenden Code, implementieren Sie die eat() Funktion, welche ein Kind beim Fondue-Essen simuliert.
+Eine Portion Fondue umfasst 3 Brotstücke, die nacheinander in eine einzige Pfanne getaucht werden.
+Semaphoren sollen garantieren, dass max. 2 von insgesamt 4 Gabeln gleichzeitig in der Pfanne sind. Kinder hat's 7, wenn eins fertig ist, soll "kid id is done" ausgegeben werden.
+Gabeln werden weitergereicht. Brot hat's genug für alle.
+```
+$ ./eat
+Kid 0 is done eating
+Kid 1 is done eating
+Kid 2 is done eating
+Kid 6 is done eating
+Kid 5 is done eating
+Kid 4 is done eating
+Kid 3 is done eating
 ```
