@@ -110,3 +110,23 @@ Kid 5 is done eating
 Kid 4 is done eating
 Kid 3 is done eating
 ```
+
+# my_sem / POSIX IPC
+Gegeben den folgenden Code, implementieren Sie my_sem_init(), _wait() und _post() mit dem Mutex in my_sem_t. Die Semantik soll POSIX Semaphoren entsprechen.
+```
+$ ./my_sem
+Hello from thread -1781230016
+Hello from thread -1798015424
+Hello from thread -1789622720
+Hello from thread -1879050688
+Hello from thread -1879050688
+```
+
+# ago
+Schreiben Sie ein Programm ago, das "jetzt vor n Tagen" als Datum ausgibt. Output wie im Beispiel, Datum im default Format, n wird per Command Line übergeben:
+```
+$ date Tue Jan 3 17:40:28 CET 2023 $ ./ago 10
+Sat Dec 24 17:40:32 2022
+```
+
+

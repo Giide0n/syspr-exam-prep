@@ -24,4 +24,7 @@ add_executable(new_target ignoreN/ignoreN.c
         assessment2/dogbdy/dogbday.c
         assessment2/sum/sum.c
         assessment2/sd/sd.c
-        assessment2/eat/eat.c)
+        assessment2/eat/eat.c
+        assessment2/my_sem/my_sem.c
+        assessment2/ago/ago.c
+        assessment2/ago/ago_kurz.c)
