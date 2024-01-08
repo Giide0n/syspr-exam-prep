@@ -17,8 +17,10 @@ sem_t sem_forks;
 void *eat(void *arg){
     int id = (int) arg;
     sem_wait(&sem_spots);
-    for (int i = 0; i < N_BREAD; i++) {
+    int i = 0;
+    while (i < N_BREAD){
         sem_wait(&sem_forks);
+        i++; // Eata da breada mapf mapf
         sem_post(&sem_forks);
     }
     printf("Kid %d is done eating\n", id);
