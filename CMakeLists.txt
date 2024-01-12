@@ -14,7 +14,17 @@ add_executable(new_target ignoreN/ignoreN.c
         exec/hello.c
         pos/pos.c
         producerConsumer/producerConsumer.c
-        addN/addN.c
-        socketpair/socketpair.c
-        checkin/checkin.c
-        secChild/secChild.c)
+        assessment2/addN/addN.c
+        assessment2/socketpair/socketpair.c
+        assessment2/checkin/checkin.c
+        assessment2/secChild/secChild.c
+        assessment2/len/len.c
+        assessment2/udp2tcp/udp2tcp.c
+        assessment2/mq_carousel/mq_carousel.c
+        assessment2/dogbdy/dogbday.c
+        assessment2/sum/sum.c
+        assessment2/sd/sd.c
+        assessment2/eat/eat.c
+        assessment2/my_sem/my_sem.c
+        assessment2/ago/ago.c
+        assessment2/ago/ago_kurz.c)
