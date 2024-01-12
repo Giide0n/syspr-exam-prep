@@ -1,19 +1,19 @@
-add_executable(new_target ignoreN/ignoreN.c
-        domino/domino.c
-        abfile/abcfile.c
-        node/node.c
-        shuffle/shuffle.c
-        threadrace/threadrace.c
-        palindrome/palindrome.c
-        buf_w/buf_w.c
-        countdown/countdown.c
-        max/max.c
-        patch/patch.c
-        count/count.c
-        exec/exec.c
-        exec/hello.c
-        pos/pos.c
-        producerConsumer/producerConsumer.c
+add_executable(new_target assessment1/ignoreN/ignoreN.c
+        assessment1/domino/domino.c
+        assessment1/abfile/abcfile.c
+        assessment1/node/node.c
+        assessment1/shuffle/shuffle.c
+        assessment1/threadrace/threadrace.c
+        assessment1/palindrome/palindrome.c
+        assessment1/buf_w/buf_w.c
+        assessment1/countdown/countdown.c
+        assessment1/max/max.c
+        assessment1/patch/patch.c
+        assessment1/count/count.c
+        assessment1/exec/exec.c
+        assessment1/exec/hello.c
+        assessment1/pos/pos.c
+        assessment1/producerConsumer/producerConsumer.c
         assessment2/addN/addN.c
         assessment2/socketpair/socketpair.c
         assessment2/checkin/checkin.c
